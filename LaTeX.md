@@ -1,3 +1,4 @@
+## LaTeX in Termux
 Minimal install
 ```bash
 dpkg install texlive
