@@ -1,3 +1,3 @@
 # termux tips
-## [LaTex Tips](./LaTex.md)
+## [LaTeX Tips](./LaTeX.md)
 ## [Jupyter](./Jupyter.md)
