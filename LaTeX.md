@@ -13,5 +13,5 @@ tlmgr install PACKAGE
 ```
 Possibles `PACKAGE`s include:
 ```
-xcolor,
+xcolor siunitx l3kernel l3packages cancel todonotes xkeyval pgf comment
 ```
