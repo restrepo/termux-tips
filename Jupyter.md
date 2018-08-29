@@ -23,3 +23,11 @@ bash setup-pointless-repo.sh
 ```bash
 pkg install scipy
 ```
+## Install codeboard
+[CodeBoard Keyboard for Coding](https://play.google.com/store/apps/details?id=com.gazlaws.codeboard&hl=en)
+May be also the [Hakcker's keyboard](https://play.google.com/store/apps/details?id=org.pocketworkstation.pckeyboard) in which the combination `<Shift>+<Enter>` works
+
+## Launch jupyter
+From the termux, launch `jupyter-notebook` and copy and paste the URL
+![img](./img/jupyter.png)
+
