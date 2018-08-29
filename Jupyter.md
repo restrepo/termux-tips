@@ -4,11 +4,6 @@ see [here](https://www.leouieda.com/blog/scipy-on-android.html)
 dpkg install clang python python-dev fftw libzmq libzmq-dev freetype freetype-dev libpng libpng-dev pkg-config
 LDFLAGS=" -lm -lcompiler_rt" pip install numpy matplotlib pandas jupyter
 ```
-Next
-```bash
-jupyter-notebook
-```
-and copy and paste the localhost URL into Google Chrome
 
 ## Installing SciPy
 See [Installing Scipy The Easy Way](https://wiki.termux.com/wiki/Installing_Scipy_The_Easy_Way)
@@ -28,7 +23,11 @@ Use [CodeBoard Keyboard for Coding](https://play.google.com/store/apps/details?i
 You May also consider the [Hakcker's keyboard](https://play.google.com/store/apps/details?id=org.pocketworkstation.pckeyboard) in which the combination `<Shift>+<Enter>` works
 
 ## Launch jupyter
-From the termux, launch `jupyter-notebook` and copy the URL
+From the termux execute the command
+```bash
+jupyter-notebook
+```
+and copy the URL
 
 <img src="./img/jupyter.png" width="250"/>
 
