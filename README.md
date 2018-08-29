@@ -1,4 +1,4 @@
-# termux tips
+# Termux hints & tips
 ## [Termux](./termux.md)
-## [LaTeX Tips](./LaTeX.md)
 ## [Jupyter](./Jupyter.md)
+## [LaTeX](./LaTeX.md)
