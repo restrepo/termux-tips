@@ -1,4 +1,4 @@
-# Jupyterin android
+# Jupyter in android
 After [install Termux](./termux.md):
 
 ## Installing Jupyter with NumPy, Matplotlib and Pandas
