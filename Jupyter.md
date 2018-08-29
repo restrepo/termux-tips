@@ -29,13 +29,13 @@ May be also the [Hakcker's keyboard](https://play.google.com/store/apps/details?
 
 ## Launch jupyter
 From the termux, launch `jupyter-notebook` and copy the URL
-<img source="./img/jupyter.png" width="200"/>
+<img src="./img/jupyter.png" width="200"/>
 
 ## Manage your termux "operating system" from jupyter
 Paste the URL into Google Chrome. 
 *  From there you can  have access to the termux filesystem with delete and upload/download of files, editor, PDF viewer, ,  etc.
-<img source="./img/chrome1.png" width="200"/>
+<img src="./img/chrome1.png" width="200"/>
 
 * Code cells include an execution button. Working with the toolbar is also convenient.
-<img source="./img/chrome2.png" width="200"/>
+<img src="./img/chrome2.png" width="200"/>
 
