@@ -36,6 +36,7 @@ From the termux, launch `jupyter-notebook` and copy the URL
 Paste the URL into Google Chrome. 
 *  From there you can  have access to the termux filesystem with delete and upload/download of files, editor, PDF viewer, ,  etc.
 <img src="./img/chrome1.png" width="250"/>
+
 * Code cells include an execution button. Working with the toolbar is also convenient.
 <img src="./img/chrome2.png" width="250"/>
 
