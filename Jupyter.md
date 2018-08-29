@@ -1,4 +1,4 @@
-## Installing Jupyter with MumPy Matplotlib and Pandas
+## Installing Jupyter with NumPy, Matplotlib and Pandas
 see [here](https://www.leouieda.com/blog/scipy-on-android.html)
 ```bash
 dpkg install clang python python-dev fftw libzmq libzmq-dev freetype freetype-dev libpng libpng-dev pkg-config
