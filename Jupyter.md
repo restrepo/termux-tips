@@ -28,6 +28,10 @@ pkg install scipy
 May be also the [Hakcker's keyboard](https://play.google.com/store/apps/details?id=org.pocketworkstation.pckeyboard) in which the combination `<Shift>+<Enter>` works
 
 ## Launch jupyter
-From the termux, launch `jupyter-notebook` and copy and paste the URL
+From the termux, launch `jupyter-notebook` and copy the URL
 ![img](./img/jupyter.png)
+
+## Manage your termux "operating system" from jupyter
+Paste the URL into Google Chrome. Note that the Codel cells include an execution button. Working with the toolbar is also convenient. Note that you can  have access to the termux filesystem with delete and upload/download of files, editor, PDF viewer, ,  etc.
+![img](./img/chrome.png)
 
