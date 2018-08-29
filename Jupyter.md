@@ -1,4 +1,4 @@
-## Installing jupyter with numpy matplotlib and pands
+## Installing Jupyter with MumPy Matplotlib and Pandas
 see [here](https://www.leouieda.com/blog/scipy-on-android.html)
 ```bash
 dpkg install clang python python-dev fftw libzmq libzmq-dev freetype freetype-dev libpng libpng-dev pkg-config
@@ -10,7 +10,7 @@ jupyter-notebook
 ```
 and copy and paste the localhost URL into Google Chrome
 
-## Installing scipy
+## Installing SciPy
 See [Installing Scipy The Easy Way](https://wiki.termux.com/wiki/Installing_Scipy_The_Easy_Way)
 
 1. Prepare repo
