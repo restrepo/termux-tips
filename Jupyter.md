@@ -32,6 +32,7 @@ From the termux, launch `jupyter-notebook` and copy the URL
 
 <img src="./img/jupyter.png" width="250"/>
 
+* Touching the upper left edge of the screen you have acces to the termux options to open new sessions and toogle to other sessions. 
 ## Manage your termux "operating system" from jupyter
 Paste the URL into Google Chrome. 
 *  From there you can  have access to the termux filesystem with delete and upload/download of files, editor, PDF viewer, ,  etc.
