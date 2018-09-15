@@ -25,7 +25,7 @@ pkg install scipy
 ## Install extended keyboard
 Use [Hacker's keyboard](https://github.com/klausw/hackerskeyboard). Go to the settings and choose the full 5-row keyboard in portrait mode‘:
 
-<img src="./img/hakerskbd.png" width="250"/>
+<img src="./img/hackerskbd.png" width="250"/>
 
 which works like a desktop keyboard. In particular,  the combination `<Shift>+<Enter>`.
 
