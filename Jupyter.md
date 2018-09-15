@@ -22,9 +22,18 @@ bash setup-pointless-repo.sh
 ```bash
 pkg install scipy
 ```
-## Install codeboard
-Use [CodeBoard Keyboard for Coding](https://play.google.com/store/apps/details?id=com.gazlaws.codeboard&hl=en).
-You May also consider the [Hakcker's keyboard](https://play.google.com/store/apps/details?id=org.pocketworkstation.pckeyboard) in which the combination `<Shift>+<Enter>` works
+## Install extended keyboard
+Use [Hacker's keyboard](https://github.com/klausw/hackerskeyboard). Go to the settings and choose the full 5-row keyboard in portrait mode‘:
+
+<img src="./img/hakerskbd.png" width="250"/>
+
+which works like a desktop keyboard. In particular,  the combination `<Shift>+<Enter>`.
+
+The others keyboards with bigger keys, can be easily actived by using the volume down key.
+
+
+
+You May also consider the [CodeBoard Keyboard for Coding](https://play.google.com/store/apps/details?id=com.gazlaws.codeboard&hl=en).
 
 ## Launch jupyter
 From the termux execute the command
