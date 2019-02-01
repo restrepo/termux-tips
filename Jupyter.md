@@ -16,7 +16,7 @@ See [Installing Scipy The Easy Way](https://wiki.termux.com/wiki/Installing_Scip
 1. Prepare repo
 ```bash
 pkg install wget
-$PREFIX/bin/wget https://its-pointless.github.io/setup-pointless-repo.sh
+wget https://its-pointless.github.io/setup-pointless-repo.sh
 bash setup-pointless-repo.sh
 ```
 2. Install Scipy: (not with `pip`)
