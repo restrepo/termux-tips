@@ -6,7 +6,7 @@ From [here](https://gist.github.com/volkbay/46150e9601d3411886c687fc575a4a1b)
 
 ```bash
 pkg update
-pkg install clang python python-pip libzmq binutils build-essential rust patchelf
+pkg install clang python python-pip libzmq binutils build-essential rust patchelf -y
 
 pip install pyzmq #--install-option="--zmq=/usr/lib"
 pip install setuptools_rust
