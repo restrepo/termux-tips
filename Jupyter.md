@@ -1,28 +1,50 @@
 # Jupyter in android
 After [install Termux](./termux.md):
 
-## Installing Jupyter with NumPy, Matplotlib and Pandas
+## Install Jupyter
+From [here](https://gist.github.com/volkbay/46150e9601d3411886c687fc575a4a1b)
 
-see [here](https://www.leouieda.com/blog/scipy-on-android.html)
 ```bash
-dpkg install clang python python-dev fftw libzmq libzmq-dev freetype freetype-dev libpng libpng-dev pkg-config
+pkg update
+pkg install clang python python-pip libzmq binutils build-essential rust patchelf
 
-LDFLAGS=" -lm -lcompiler_rt" pip install numpy matplotlib pandas jupyter
+pip install pyzmq #--install-option="--zmq=/usr/lib"
+pip install setuptools_rust
+```
+Check
+```bash
+>>> python --version
+Python 3.11.8
+```
+Try to install jupyter
+```bash
+pip install jupyterlab jupyter
+```
+Try to lauch `jupyter notebook` and check for the path in the error
+```
+ImportError: dlopen failed: cannot locate symbol "PyExc_ImportError" referenced by "/data/data/com.termux/files/usr/lib/python3.11/site-packages/zmq/backend/cython/_zmq.cpython-311.so".
+```
+and use it, according to the python version:
+```
+patchelf --add-needed libpython3.11.so /data/data/com.termux/files/usr/lib/python3.11/site-packages/zmq/backend/cython/_zmq.cpython-311.so
 ```
 
-## Installing SciPy
-See [Installing Scipy The Easy Way](https://wiki.termux.com/wiki/Installing_Scipy_The_Easy_Way)
+## Install python modules
+Install addtional repos for Scipy
+```bash
+curl -LO https://its-pointless.github.io/setup-pointless-repo.sh && bash setup-pointless-repo.sh
+```
+and Pandas
+```bash
+pkg i tur-repo
+```
+Numpy is a requirement
+```bash
+pkg i python-scipy python-pandas
+```
 
-1. Prepare repo
-```bash
-pkg install wget
-wget https://its-pointless.github.io/setup-pointless-repo.sh
-bash setup-pointless-repo.sh
-```
-2. Install Scipy: (not with `pip`)
-```bash
-pkg install scipy
-```
+
+
 ## Install extended keyboard
 Use [Hacker's keyboard](https://github.com/klausw/hackerskeyboard). Go to the settings and choose the full 5-row keyboard in portrait mode‘:
 
